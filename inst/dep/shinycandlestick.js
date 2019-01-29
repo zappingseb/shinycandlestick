@@ -24,7 +24,6 @@ $.extend(CandleStickBinding, {
     return $(scope).find(".shinycandlestick-wrapper");
   },
   getValue: function(el) {
-    console.log($(el).find('input').val());
     return($(el).find('input').val());
   },
   setValue: function(el, value) {
@@ -41,7 +40,6 @@ $.extend(CandleStickBinding, {
     // the jQuery "change" function allows you
     // to notice any change to your input elements
    $(el).on('change.input',function(){
-     console.log("change");
      callback(false);
        // When called with false, it will NOT use the rate policy,
 	  // so changes will be sent immediately
