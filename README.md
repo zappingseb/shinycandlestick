@@ -17,7 +17,11 @@ CandleStick(
   default = c(b = "f22d"),
   fa_mode = TRUE,
   candlestick_mode = "contents",
-  candlestick_size = "md")
+  candlestick_size = "md",
+  contents_color = '#fc4c02'
+  )
 ```
 
-with these settings it creates a switch with female, neutral and male icons.
+with these settings it creates a switch with female, neutral and male icons. In Contents mode the color of
+the switch can be changed.
+
