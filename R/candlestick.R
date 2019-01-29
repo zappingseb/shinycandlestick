@@ -44,6 +44,7 @@ attachDependenciesCandleStick <- function(tag) {
 #' 
 #' @references \link{registerCandleStick}, \link{attachDependenciesCandleStick},
 #' 
+#' @export
 #' @import shiny
 #' @importFrom glue glue
 CandleStick <- function(id="fancycolorpicker",
