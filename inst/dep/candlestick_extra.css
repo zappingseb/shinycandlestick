@@ -14,6 +14,7 @@
     font-size: 1em;
     width: 8em;
     height: 3em;
+    text-align:left;
 }
 
 .shinycandlestick-wrapper.content .candlestick-bg.move {
