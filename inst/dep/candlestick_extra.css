@@ -7,7 +7,9 @@
 .candlestick-fa>.candlestick-nc::after{
   font-family: 'Font Awesome\ 5 Free';
 }
-
+.shinycandlestick-wrapper.content{
+    text-align:left;
+}
 
 .shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents {
     border-radius: 0;
