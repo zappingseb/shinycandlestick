@@ -66,7 +66,7 @@ CandleStick <- function(id="fancycolorpicker",
   # Return a div element of class "doubleclorpicker"
   tag <- div(
     id=id,
-    class="shinycandlestick-wrapper",
+    class=paste0("shinycandlestick-wrapper ",ifelse(candlestick_mode=='contents','content','')),
     
     HTML(glue("<input type='checkbox' id='{id}-input' value='{names(default)}' name='{id}-input' class='js-candlestick'>")),
     

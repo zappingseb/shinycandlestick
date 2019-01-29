@@ -7,3 +7,149 @@
 .candlestick-fa>.candlestick-nc::after{
   font-family: 'Font Awesome\ 5 Free';
 }
+
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents {
+    border-radius: 0;
+    font-size: 1em;
+    width: 8em;
+    height: 3em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-bg.move {
+    border-radius: 0;
+    font-size: 1em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper .candlestick-bg .candlestick-toggle {
+    width: 2em;
+    height: 1.5em;
+    border-radius: 0;
+    border: 0.1em solid white
+}
+
+.shinycandlestick-wrapper.content  .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-nc, 
+.candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-off,
+ .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-on{
+  width: 1em;
+  height:1em;
+  margin:0;
+  top: 0;
+  line-height: 1em;     
+}
+.shinycandlestick-wrapper.content  .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-nc:after, 
+.candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-off:after,
+ .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-on:after{
+  line-height: 2em;     
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg {
+    border-radius: 0;
+    height: 2em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-nc{
+    left: 3em
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-on{
+    left: 6.5em
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-on{
+    left: 6.5em;
+    width: 1em;
+    height: 1em;
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-off{
+ padding-top:0;
+    width: 1em;
+    height: 1em;
+    left:0.5em;
+
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-off:after{
+ line-height: 2em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-on:after{
+ line-height: 2em;
+ font-size: 1em;
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-nc:after{
+ line-height: 2em;
+ font-size: 1em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-on:after{
+ line-height: 2em;
+ font-size: .5em;
+
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-nc:after{
+ line-height: 2em;
+ font-size: .5em;
+
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-off:after{
+ line-height: 2em;
+ font-size: .5em;
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-off:after{
+ line-height: 2em;
+ font-size: 1em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-nc, 
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-off,
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-on{
+  width: 1em;
+  height:1em;
+  margin:0;
+  line-height: 1em;     
+  top:.3em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-nc{
+  top:0em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-off,
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-on{
+  top:0em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-off{
+    left: 0.5em;
+
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-on{
+    left: 6.3em;
+
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-toggle{
+    width: 3em
+
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-toggle{
+    width: 2em
+
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg.candlestick-fa .candlestick-nc {
+    left: 3.3em;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-toggle{
+  background-color:#fc4c02;
+}
+
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents.candlestick-size-md {
+    font-size:1.2em;
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents.candlestick-size-sm {
+    font-size:1em;
+}
+.shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents.candlestick-size-xs {
+    font-size:0.8em;
+}
