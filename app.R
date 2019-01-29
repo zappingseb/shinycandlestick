@@ -19,7 +19,8 @@ ui <- fluidPage(
                   left=c("f"="female"),
                   right=c("m"="male"),
                   default=c("b"="both")
-                  ,fa_mode=FALSE)
+                  ,fa_mode=FALSE,
+                  contents_color = 'red')
     )),
     column(8, wellPanel(
       verbatimTextOutput("urlText"),

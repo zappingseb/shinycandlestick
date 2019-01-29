@@ -40,6 +40,8 @@ attachDependenciesCandleStick <- function(tag) {
 #' @param default named vector with central option
 #' @param id ID of the element
 #' 
+#' @param content_color Color of the select element in case the 'contents' mode is used.
+#' 
 #' @references \link{registerCandleStick}, \link{attachDependenciesCandleStick},
 #' 
 #' @import shiny
@@ -50,7 +52,8 @@ CandleStick <- function(id="fancycolorpicker",
                         default = c('b'='f22d'),
                         fa_mode = TRUE,
                         candlestick_mode = 'contents',
-                        candlestick_size = 'md'
+                        candlestick_size = 'md',
+                        contents_color = '#fc4c02'
                         ){
   registerCandleStick()
   
@@ -85,6 +88,7 @@ CandleStick <- function(id="fancycolorpicker",
                     'right': '{right}', 
                     'swipe': true 
                 }},
+            'contents_color':'{contents_color}',
             'size':'{candlestick_size}',
             'on': '{names(right)}', 
             'off': '{names(left)}', 
