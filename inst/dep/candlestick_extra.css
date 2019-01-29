@@ -9,6 +9,7 @@
 }
 .shinycandlestick-wrapper.content{
     text-align:left;
+  width: 9em;
 }
 
 .shinycandlestick-wrapper.content .candlestick-wrapper.candlestick-contents {
