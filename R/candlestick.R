@@ -15,7 +15,7 @@ attachDependenciesCandleStick <- function(tag) {
   dep <- htmltools::htmlDependency(
     name = "shinycandlestick", version = version,
     package = "shinycandlestick",
-    src = "inst/dep", # - Fix upon loading without devtools
+    src = "dep", # - Fix upon loading without devtools
     stylesheet = c("candlestick_extra.css","candlestick.map.css","candlestick.min.css"),
     script = c("candlestick.min.js","hammer.min.js","jquery.hammer.js","shinycandlestick.js"),
     head='<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">'
