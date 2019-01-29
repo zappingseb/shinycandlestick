@@ -1,0 +1,10 @@
+language: r
+
+cache:
+ - packages
+ - apt: true
+r: release
+r_packages: devtools
+script:
+- R CMD build .
+- R CMD check *tar.gz

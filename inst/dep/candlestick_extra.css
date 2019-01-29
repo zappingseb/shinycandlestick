@@ -1,0 +1,9 @@
+.candlestick-fa>.candlestick-off::after{
+  font-family: 'Font Awesome\ 5 Free';
+}
+.candlestick-fa>.candlestick-on::after{
+  font-family: 'Font Awesome\ 5 Free';
+}
+.candlestick-fa>.candlestick-nc::after{
+  font-family: 'Font Awesome\ 5 Free';
+}
