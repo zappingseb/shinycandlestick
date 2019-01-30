@@ -39,8 +39,7 @@ attachDependenciesCandleStick <- function(tag) {
 #' @param right named vector with right option - name value
 #' @param default named vector with central option
 #' @param id ID of the element
-#' 
-#' @param content_color Color of the select element in case the 'contents' mode is used.
+#' @param contents_color Color of the select element in case the 'contents' mode is used.
 #' 
 #' @references \link{registerCandleStick}, \link{attachDependenciesCandleStick},
 #' 
