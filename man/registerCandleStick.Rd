@@ -7,5 +7,5 @@
 registerCandleStick()
 }
 \description{
-Register a shiny candlestick
+Registrering the CandleStickBinding inside the shiny session
 }

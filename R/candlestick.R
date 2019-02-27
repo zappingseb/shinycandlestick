@@ -109,7 +109,6 @@ CandleStick <- function(id="fancycolorpicker",
 
 #' Register a shiny candlestick
 #' 
-#' @export
 #' 
 #' Registrering the CandleStickBinding inside the shiny session
 registerCandleStick <- function(){
