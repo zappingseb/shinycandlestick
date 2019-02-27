@@ -134,6 +134,6 @@ registerCandleStick <- function(){
 #' @param value on / off / default
 #' 
 updateCandleStick <- function(inputId, value="on"){
-  stopifnot(!value %in% c("on","off","default"))
+  stopifnot(value %in% c("on","off","default"))
   shinyjs::runjs(paste0("$('#",inputId,"').candlestick('",value,"');"))
 }
