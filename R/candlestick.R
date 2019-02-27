@@ -109,6 +109,8 @@ CandleStick <- function(id="fancycolorpicker",
 
 #' Register a shiny candlestick
 #' 
+#' @export
+#' 
 #' Registrering the CandleStickBinding inside the shiny session
 registerCandleStick <- function(){
   # Try to remove the input Handler as shiny does not allow double input
@@ -125,3 +127,14 @@ registerCandleStick <- function(){
   )
 }
 
+#' Update a candlestick value
+#' 
+#' @export
+#' 
+#' @param inputId ID of Canldestick
+#' @param value on / off / default
+#' 
+updateCandleStick <- function(inputId, value="on"){
+  stopifnot(!value %in% c("on","off","default"))
+  shinyjs::runjs(paste0("$('#",inputId,"').candlestick('",value,"');"))
+}
