@@ -6,7 +6,8 @@
 \usage{
 CandleStick(id = "fancycolorpicker", left = c(f = "f182"),
   right = c(m = "f183"), default = c(b = "f22d"), fa_mode = TRUE,
-  candlestick_mode = "contents", candlestick_size = "md")
+  candlestick_mode = "contents", candlestick_size = "md",
+  contents_color = "#fc4c02")
 }
 \arguments{
 \item{id}{ID of the element}
@@ -23,6 +24,8 @@ just in 'contents' mode}
 \item{candlestick_mode}{'option' or 'contents'}
 
 \item{candlestick_size}{Sizes (lg, md (default), sm, xs)}
+
+\item{contents_color}{Color of the select element in case the 'contents' mode is used.}
 }
 \description{
 This is an input taken from https://github.com/EdouardTack/candlestick
